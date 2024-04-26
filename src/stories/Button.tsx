@@ -13,7 +13,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'bg-purple-500 text-white' : 'bg-gray-300 text-gray-700';
+  const mode = primary ? 'bg-yellow-500 text-white' : 'bg-gray-300 text-gray-700';
   const sizeClasses = {
     small: 'px-4 py-2 text-sm',
     medium: 'px-6 py-3 text-base',
